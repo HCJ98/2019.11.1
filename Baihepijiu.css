@@ -68,18 +68,18 @@ body {
     color: #E2E4ED;
 }
 
-.header .nav ul li.first {
+.header .nav ul li.diyi {
     background-color: #151a36;
     color: #E2E4ED;
 }
 
-.header .joinus {
+.header .jiaru {
     float: left;
     margin-left: 48px;
     padding-top: 12px;
 }
 
-.header .joinus a {
+.header .jiaru a {
     display: block;
     width: 98px;
     height: 32px;
