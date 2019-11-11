@@ -67,12 +67,6 @@ body {
 .header .nav ul li a:hover {
     color: #E2E4ED;
 }
-
-.header .nav ul li.diyi {
-    background-color: #151a36;
-    color: #E2E4ED;
-}
-
 .header .jiaru {
     float: left;
     margin-left: 48px;
@@ -154,10 +148,6 @@ body {
 
 .content .product li a:hover p {
     color: rgb(218, 88, 88);
-}
-
-.content .product li a:hover h5 {
-    color: rgb(21, 53, 160);
 }
 /* 左边新闻 */
 .content .info .news {
