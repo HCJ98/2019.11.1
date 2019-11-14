@@ -225,3 +225,10 @@ body {
     width: 100%;
     height: 460px;
 }
+/* 说明版权*/
+footer{
+    background-color: rgb(197, 215, 241);
+    width: 100%;
+    clear: both;
+    line-height: 12px;
+}
