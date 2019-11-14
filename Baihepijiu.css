@@ -23,7 +23,7 @@ body {
 /* 标题 */
 .header {
     height: 58px;
-    background-color: #191D3A;
+    background-color:rgb(30, 171, 206)
     
 }
 
@@ -46,11 +46,7 @@ body {
 .header .nav ul li {
     float: left;
     width: 100px;
-    border-left: 1px solid #252947;
-}
-
-.header .nav ul li.last {
-    border-right: 1px solid #252947;
+    border-left: 1px solid rgb(30, 171, 206);
 }
 
 .header .nav ul li a {
@@ -60,26 +56,26 @@ body {
     line-height: 58px;
     text-align: center;
     text-decoration: none;
-    color: #818496;
+    color: rgba(17, 13, 3, 0.925);
     font-weight: bold;
 }
 
 .header .nav ul li a:hover {
     color: #E2E4ED;
 }
-.header .jiaru {
+.header .daili {
     float: left;
-    margin-left: 48px;
+    margin-left: 12px;
     padding-top: 12px;
 }
-
-.header .jiaru a {
+/*加入我们*/
+.header .daili a {
     display: block;
     width: 98px;
     height: 32px;
-    border: 1px solid #3ACA7A;
+    border: 1px solid rgb(30, 171, 206);
     border-radius: 4px;
-    background-color: #38B774;
+    background-color: rgb(56, 90, 183);
     line-height: 32px;
     text-align: center;
     text-decoration: none;
@@ -121,10 +117,6 @@ body {
 .content .product li img {
     width: 218px;
     height: 128px;
-}
-
-.content .product li.last img {
-    width: 217px;
 }
 
 .content .product li a h5 {
