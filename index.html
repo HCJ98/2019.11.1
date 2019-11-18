@@ -7,9 +7,7 @@
 <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- 下拉菜单 -->
-<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="/try/bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="Baihepijiu.css">
 
 <head>
@@ -31,27 +29,23 @@
                 <ul>
                     <li class="diyi"><a href="#">首页</a></li>
                     <li>
-                        <div class="dropdown">
-                            <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-                                网络销售
-                            </button>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="https://www.taobao.com/">
-                                        淘宝</a>
-                                </li>
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="https://www.tmall.com/">天猫</a>
-                                </li>
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="https://www.jd.com/">京东</a>
-                                </li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation">
-                                    <a role="menuitem" tabindex="-1" href="">美团</a>
+                        <ul class="nav nav-pills">
+                                <li class="dropdown all-camera-dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        网络销售
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li data-filter-camera-type="all"><a data-toggle="" href="https://www.taobao.com/">淘宝</a></li>
+                                        <li data-filter-camera-type="Alpha"><a data-toggle="" href="https://www.tmall.com">天猫</a></li>
+                                        <li data-filter-camera-type="Zed"><a data-toggle="" href="https://www.jd.com/">京东</a></li>
+                                        <li data-filter-camera-type="Bravo"><a data-toggle="" href="https://www.meituan.com/">美团</a></li>
+                            
+                                    </ul>
                                 </li>
                             </ul>
-                        </div>
+                                <script type="text/javascript" src="/try/bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>
+                                <script type="text/javascript" src="/try/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>
                     </li>
                     <li><a href="http://www.tz1288.com/s/2610636.html">超市代销</a></li>
                     <li><a href="http://bhpj.jius.net/">销售系统</a></li>
